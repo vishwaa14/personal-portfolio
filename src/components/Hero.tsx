@@ -12,7 +12,7 @@ const Hero = () => {
 
   const openResume = () => {
     // Replace this URL with your actual resume link
-    window.open('#', '_blank');
+    window.open('https://drive.google.com/file/d/1T5J-ffecAfoTmSzA-XLVv0Uze1n7vNZu/view?usp=sharing', '_blank');
   };
 
   return (
