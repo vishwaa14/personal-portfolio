@@ -20,4 +20,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   base: "/vishwaa-portfolio/",
+  build: {
+    outDir: "dist", // Ensure this is set
+  },
 }));
