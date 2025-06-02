@@ -17,17 +17,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/vishwaa-portfolio/",
-  build: {
-    outDir: "dist",
-    emptyOutDir: true,
-    assetsDir: "assets",
-    rollupOptions: {
-      output: {
-        assetFileNames: "assets/[name]-[hash][extname]",
-        chunkFileNames: "assets/[name]-[hash].js",
-        entryFileNames: "assets/[name]-[hash].js",
-      }
-    }
-  },
+  base: "/vishwaa-portfolio/"
 }));
